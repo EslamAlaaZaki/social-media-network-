@@ -1,5 +1,7 @@
 # social-media-network-
-make social media application like FB using xamarin android   
+make social media application like FB using xamarin android
+
+
 Problem definition importance of SNA:
 A social network help to connect people with each other 
 Know their ideas in their posts, knowing new news, make  new friends
