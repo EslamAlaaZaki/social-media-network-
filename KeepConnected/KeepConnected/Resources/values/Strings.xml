@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">KeepConnected</string>
+  <string-array name="search">
+    <item>People</item>
+    <item>Groups</item>
+  </string-array>
+  <string-array name="post">
+    <item>...</item>
+    <item>Remove</item>
+  </string-array>
+
+  <string-array name="XML">
+    <item>XML</item>
+    <item>Graph</item>
+  </string-array>
+  <string-array name="functions">
+    <item>Timeline</item>
+    <item>Profile</item>
+    <item>Friends</item>
+    <item>Freiends Requests</item>
+    <item>Add Freiend</item>
+    <item>Groups</item>
+    <item>Create Group</item>
+    <item>Inbox</item>
+    <item>Sent</item>
+    <item>Send E-mail</item>
+    <item>Logout</item>
+
+  </string-array>
+</resources>

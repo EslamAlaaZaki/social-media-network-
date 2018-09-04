@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9997C7"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout40">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout41"
+            android:gravity="center"
+            android:layout_margin="1dp">
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView40" />
+            <TextView
+                android:text="Keep Connected"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView40"
+                android:textColor="#73153D"
+                android:gravity="center" />
+        </LinearLayout>
+        <Spinner
+            android:entries="@array/XML"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/xmlorgraph"
+            android:background="#73153D"
+            android:layout_margin="7dp" />
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xml"
+        android:textColor="#393A3B"
+        android:layout_margin="7dp" />
+</LinearLayout>

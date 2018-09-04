@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9997C7"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout110"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView110" />
+        <TextView
+            android:text="Keep Connected"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView110"
+            android:textColor="#73153D"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout111"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout112"
+            android:gravity="center">
+            <ImageView
+                android:src="@drawable/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView112"
+                android:layout_margin="7dp" />
+            <EditText
+                android:inputType="text"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/username_adduser"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:hint="User E-mail"
+                android:gravity="center"
+                android:layout_margin="7dp"
+                android:textColor="#000"
+                android:textColorHint="#999" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:text="Add Friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adduserbutton_adduser"
+        android:textAllCaps="false"
+        android:background="#73153D"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp" />
+</LinearLayout>

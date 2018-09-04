@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9997C7">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:background="#505">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:id="@+id/Parent"
+            android:layout_margin="20dp"
+            android:layout_height="fill_parent"
+            android:background="#a92362">
+            <ImageView
+                android:src="@drawable/maninprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/picture_profile"
+                android:layout_gravity="center"
+                android:padding="4dp"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="MY Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/profilename"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textColor="#fff" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/data"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="5dp">
+                <TextView
+                    android:text="Email@Emailaty.com"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Email_profile"
+                    android:textColor="#fff" />
+                <TextView
+                    android:text="Male"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gender_profile"
+                    android:textColor="#fff" />
+                <TextView
+                    android:text="01111111111"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mobile_profile"
+                    android:textColor="#fff" />
+                <TextView
+                    android:text="1/11/1996"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Birthday_profile"
+                    android:textColor="#fff" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/options"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+                <Button
+                    android:text="Add Friend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/State"
+                    android:background="#a92362"
+                    android:layout_marginBottom="10dp" />
+                <Button
+                    android:text="Show Mutuals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Mu_Friend"
+                    android:background="#a92362" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ProfilePost" />
+</LinearLayout>
